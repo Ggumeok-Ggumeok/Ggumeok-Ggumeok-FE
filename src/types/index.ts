@@ -1,3 +1,12 @@
+// ─── User ─────────────────────────────────────────────────────────────────────
+export interface User {
+  id: number;
+  nickname: string;
+  email: string;
+  profileImage?: string;
+  createdAt: string;
+}
+
 // ─── Food Board (오음추) ───────────────────────────────────────────────────────
 export type MealTime = '전체' | '아침' | '점심' | '저녁' | '간식';
 
